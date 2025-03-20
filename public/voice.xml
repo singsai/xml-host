@@ -1,5 +1,4 @@
 <Response>
-  <Say>Hello! This is a test call from SignalWire.</Say>
-  <Pause length="2"/>
-  <Say>Goodbye!</Say>
+  <Say>Recording your message now.</Say>
+  <Record maxLength="30" action="https://localhost:5001/handle-recording" />
 </Response>
